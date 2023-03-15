@@ -19,3 +19,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+
+Welcome to Clicod documentation!
+================================
