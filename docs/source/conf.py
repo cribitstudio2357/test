@@ -16,7 +16,6 @@
 
 
 # -- Project information -----------------------------------------------------
-from recommonmark.parser import CommonMarkParser
 
 project = 'test'
 copyright = '2023, clicod'
@@ -29,6 +28,7 @@ author = 'clicod'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "myst_parser"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,6 +59,7 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+from recommonmark.parser import CommonMarkParser
  
 source_parsers = {
     '.md': CommonMarkParser,
