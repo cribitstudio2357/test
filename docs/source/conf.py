@@ -16,6 +16,7 @@
 
 
 # -- Project information -----------------------------------------------------
+from recommonmark.parser import CommonMarkParser
 
 project = 'test'
 copyright = '2023, clicod'
@@ -58,7 +59,6 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-from recommonmark.parser import CommonMarkParser
  
 source_parsers = {
     '.md': CommonMarkParser,
